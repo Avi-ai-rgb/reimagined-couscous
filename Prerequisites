@@ -1,0 +1,16 @@
+
+### مراحل نصب و اجرای پروژه:
+
+1. **به‌روزرسانی ترموکس و نصب پایتون و Git**:
+   ```sh
+   pkg update && pkg upgrade
+
+   pkg install python
+   pkg install git
+   ```
+
+2. **پیکربندی Git**:
+   ```sh
+   git config --global user.name "Your Name"
+   git config --global user.email "YourEmail@example.com"
+   ``
