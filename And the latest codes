@@ -1,0 +1,22 @@
+4. **نصب Flask**:
+   ```sh
+   pip install flask
+   ```
+
+5. **اجرای برنامه**:
+   ```sh
+   python app.py
+   ```
+
+6. **اتصال به GitHub و ارسال کدها**:
+   - مخزن محلی را ایجاد کن و کدها را اضافه کن:
+     ```sh
+     git init
+     git add app.py templates/index.html
+     git commit -m "Initial commit"
+     ```
+
+   - اتصال به مخزن GitHub و ارسال کدها:
+     ```sh
+     git remote add origin https://github.com/YourUsername/YourRepositoryName.git
+     git push -u origin maste
